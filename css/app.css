@@ -1,9 +1,10 @@
 .toolbar__title{
-    background-color:palevioletred;
-    color: black;
+    background-color:rgb(175, 29, 29);
+    color:white;
+    
 }
 
 .tabbar {
-    background-color:black;
-    color:whitesmoke;
+    background-color:rgb(175, 29, 29);
+    color:white;
 }
