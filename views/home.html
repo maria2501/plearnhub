@@ -1,19 +1,25 @@
 <ons-page id="home">
+<ons-navigator swipeable id="myNavigator" page="homemovie.html"></ons-navigator>
 
-    <h2>Top 10 this month</h2>
-    <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel"  >
-        <ons-carousel-item style="background-image: url('../images/joker.jpg')">
-         
-        </ons-carousel-item>
-        <ons-carousel-item style="background-image: url('../images/extraction.jpg')">
-         
-        </ons-carousel-item>
-        <ons-carousel-item style="background-image: url('../images/adventure.jpg')">
-         
-        </ons-carousel-item>
-    </ons-carousel>
+<template id="homemovie.html">
 
- 
+    <ons-page id="homemovie">
+        <ons-carousel swipeable auto-scroll id="homemovie">
+            <ons-carousel-item modifier="nodivider" id="Movie1">
+                <img src="../images/joker.jpg" width="100%" height="500"/>
+              </ons-carousel-item>
+              <ons-carousel-item modifier="nodivider" id="Movie2">
+                <img src="../images/adventure.jpg" width="100%" height="500"/>
+              </ons-carousel-item>
+              <ons-carousel-item modifier="nodivider" id="Movie3">
+                <img src="../images/extraction.jpg" width="100%" height="500"/>
+              </ons-carousel-item>
+            </ons-carousel>
 
-
+        </ons-carousel>
+        <div>
+            <h2 style="text-align: center;">Top 10 of August</h2>
+        </div>
+    </ons-page>
+</template>
 </ons-page>
